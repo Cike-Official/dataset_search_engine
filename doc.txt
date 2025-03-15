@@ -1,0 +1,29 @@
+Proposed Title:
+"Semantic Search Engine for Machine Learning Datasets Using NLP"
+
+Title Description:
+This project aims to develop a semantic search engine that enables natural language-based dataset retrieval using NLP techniques. It will help users find machine learning datasets by understanding the context and meaning of their queries rather than relying on exact keyword matches.
+
+Questions Addressed:
+1. What are the information needs your search engine supports?
+
+Users need relevant machine learning datasets based on contextual search queries rather than simple keyword-based retrieval.
+Supports query understanding (e.g., "datasets for fraud detection" should return financial fraud datasets, even if "fraud detection" isn’t explicitly mentioned in the dataset title).
+Allows filtering and ranking of datasets based on metadata, descriptions, and relevance scores.
+
+2. What is the targeted domain?
+
+The primary domain is machine learning and data science.
+The search engine is designed for data scientists, AI researchers, and engineers who need to find high-quality datasets efficiently.
+Sources could include Kaggle, Data.gov, OpenML, UCI ML Repository, and other public dataset platforms.
+
+3. How do you want to provide a search service?
+
+NLP-powered query understanding using transformer models (BERT, SBERT, or a lightweight alternative) for semantic similarity matching.
+Indexing datasets using Elasticsearch or FAISS for efficient search and retrieval.
+A web-based search interface where users can enter natural language queries, apply filters, and browse ranked results.
+Potential integration with metadata extraction (e.g., dataset format, size, domain, and keywords).
+
+
+-------------------------------------------------------------------------------------------------------
+
